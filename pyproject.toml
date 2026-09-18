@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge-vision-mesh"
+version = "0.1.0"
+description = "Decentralized P2P Edge-NPU Multi-Camera Re-Identification Swarm with Zero Cloud Bandwidth Egress."
+readme = "README.md"
+authors = [
+  { name = "Ahmed Hassan", email = "ahmed@a2zsoc.com" }
+]
+license = { text = "Apache-2.0" }
+keywords = [
+  "edge-ai-surveillance",
+  "decentralized-reid",
+  "zero-bandwidth-video",
+  "jetson-swarm",
+  "person-reidentification",
+  "mesh-vision-network",
+  "edge-computing-surveillance",
+  "private-cctv-mesh",
+  "p2p-surveillance",
+  "multi-camera-tracking",
+  "edge-npu-inference"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Image Recognition",
+  "Topic :: System :: Networking"
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+edge-vision-mesh = "edge_vision_mesh.cli:main"
